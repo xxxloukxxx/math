@@ -1,0 +1,112 @@
+\documentclass{beamer}
+%%% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{pgf,tikz,pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\usepackage{graphics}
+\usepackage{lmodern}
+
+%%% Math
+\usepackage{siunitx}
+\usepackage[c]{esvect}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+
+%%% Beamer
+\usetheme{Madrid}
+\title{1 Spé - Produit Scalaire}
+\date{}
+\author{}
+%\pagestyle{empty}
+\setbeamertemplate{blocks}[default]
+
+
+%%%
+\begin{document}
+\begin{frame}
+    \maketitle
+\end{frame}
+
+\section*{Ploum}
+\begin{frame}
+    \transdissolve[duration=5]
+    \begin{columns}[T]
+        \begin{column}{6cm}
+            \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+                \begin{axis}[
+                        x=1.0cm,y=1.0cm,
+                        axis lines=middle,
+                        ymajorgrids=true,
+                        xmajorgrids=true,
+                        xmin=0.0,
+                        xmax=5.0,
+                        ymin=0.0,
+                        ymax=3.0,
+                        xtick={0.0,1.0,...,5.0},
+                        ytick={0.0,1.0,...,3.0},]
+                    \clip(0.,0.) rectangle (5.,3.);
+                    \draw [->,line width=2pt,color=blue] (1.,1.) -- (4.,1.);
+                    \draw [->,line width=2pt,color=green] (2.,2.) -- (1.,2.);
+                    \draw (1.3943488943488942,2.480253399502574) node[anchor=north west] {$\vec{u}$};
+                    \draw (2.3587223587223587,1.501909993843625) node[anchor=north west] {$\vec{v}$};
+                \end{axis}
+            \end{tikzpicture}
+        \end{column}
+
+        \begin{column}{6cm}
+            \begin{block}{Question}
+                Déterminer la valeur de $\vv{u}\cdot\vv{v}$ ?
+            \end{block}
+            \pause
+            \begin{block}{Réponse}
+                $\vv{u}\cdot\vv{v}=\norm{\vv{u}}\times\norm{\vv{v}}\times\cos(\vv{u};\vv{v})$\pause\\
+                $\vv{u}\cdot\vv{v}=3\times 1\times \cos(\ang{180})$\pause\\
+                $\vv{u}\cdot\vv{v}=-3$
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\section*{PloumPloum}
+\begin{frame}
+    \begin{columns}[T]
+        \begin{column}{6cm}
+            \definecolor{ffqqqq}{rgb}{1.,0.,0.}
+            \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+                \begin{axis}[
+                        x=1.0cm,y=1.0cm,
+                        axis lines=middle,
+                        ymajorgrids=true,
+                        xmajorgrids=true,
+                        xmin=0.0,
+                        xmax=5.0,
+                        ymin=0.0,
+                        ymax=4.0,
+                        xtick={0.0,1.0,...,5.0},
+                        ytick={0.0,1.0,...,4.0},]
+                    \clip(0.,0.) rectangle (5.,4.);
+                    \draw [->,line width=2pt,color=green] (2.,1.) -- (4.,3.);
+                    \draw [->,line width=2pt,color=blue] (2.,1.) -- (1.,2.);
+                    \draw (1.0,1.6339066339066393) node[anchor=north west] {$\vec{u}$};
+                    \draw (3.0,2.0) node[anchor=north west] {$\vec{v}$};
+                \end{axis}
+            \end{tikzpicture}
+        \end{column}
+
+        \begin{column}{6cm}
+            \begin{block}{Question}
+                Déterminer la valeur de $\vv{u}\cdot\vv{v}$ ?
+            \end{block}
+            \pause
+            \begin{block}{Réponse}
+                $\vv{u}\perp\vv{v}$ donc $\vv{u}\cdot\vv{v}=0$
+            \end{block}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+\end{document}
