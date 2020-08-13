@@ -17,6 +17,7 @@ Pour cela :
 - pandoc pour le beamer : il faut que ```pandoc test.md -o test.pdf -t beamer``` soit suffissant (theme au choix : singapore ou autre)
 - Tikz pour les figures ... on peut faire vraiment pleins de choses avec (voir 1STMG/Fluctuation par ex)
 - Les arbres et tableau de variations : http://math.et.info.free.fr/TikZ/index.html 
+- Pour les schémas, : [app.diagrams.net](https://app.diagrams.net/) (à voir)
 - images dans répertoire media
 - faire propre et transférable
 - Structuration succente
