@@ -1,6 +1,6 @@
 ---
 title: Exercices - Fonction inverse
-subtitle: 1^ère^ STMG
+subtitle: T^le^ STMG
 lang: fr-FR
 documentclass: scrartcl
 geometry: "left=1.0cm,right=1.0cm,top=1.5cm,bottom=2.5cm"
@@ -24,6 +24,8 @@ header-includes:
 \Begin{multicols}{2}
 
 ## Etudier une fonction polynôme $P(x)$ de degré au plus 3
+
+:smile:
 
 ![](ex/19.png){width=45%}
 

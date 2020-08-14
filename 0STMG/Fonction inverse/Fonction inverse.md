@@ -389,13 +389,12 @@ Et donc si $f'(x) > 0$ alors $-1<x<1$ et $x\neq 0$.
 
 \newpage
 
-(d)
+(d) Voici la représentation de la fonction $f$
 
-\begin{figure}
 \begin{center}
 \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
 \begin{axis}[
-width=16cm,height=12cm,axis lines=middle,
+width=14cm,height=10cm,axis lines=middle,
 ymajorgrids=true,xmajorgrids=true,
 xmin=-5.9,xmax=5.9,ymin=-14,ymax=16,
 xtick={-6,-5,...,6},ytick={-15,-10,-5,...,5,10,15}]
@@ -411,6 +410,4 @@ xtick={-6,-5,...,6},ytick={-15,-10,-5,...,5,10,15}]
 \draw [line width=1.pt,dashed] (0,-3)-- (1,-3);
 \end{axis}
 \end{tikzpicture}
-\caption{Représentation graphique de la fonction $f(x)=1-2x-\frac{2}{x}$}
 \end{center}
-\end{figure}
