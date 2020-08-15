@@ -137,7 +137,37 @@ header-includes:
 
 ![](ex/51.png){width=45%}
 
-
-
 \End{multicols}
+```
+
+## Exemple pour les "Objectifs de fin de chapitre"
+
+```
+---
+title: Fluctuation (p.xxx)
+subtitle: 1^ère^ STMG
+lang: fr-FR
+documentclass: scrartcl
+geometry: "left=1.5cm,right=1.5cm,top=1.5cm,bottom=2.5cm"
+numbersections: false
+standalone: false
+output: pdf_document
+header-includes:
+	- \usepackage{pgf,tikz,tkz-tab,pgfplots}
+	- \pgfplotsset{compat=1.15}
+	- \usepackage{mathrsfs}               
+	- \usetikzlibrary{arrows}
+---
+
+# Objectifs de fin de chapitre
+
+- [ ] sdq sdqf
+  - Exercices : 45 - 46 - 89 - 99 à 127
+  - Exercices : 45 - 46 - 89 - 99 à 127
+- [ ] qqsd fq
+  - Exercices : 45 - 46 - 89 - 99 à 127
+- [ ] qfsdqf sdqf
+  - Exercices : 45 - 46 - 89 - 99 à 127
+
+![Intervalle de fluctuation](https://images.schoolmouv.fr/maths-1re-cours13-img01.png){width=75%}
 ```
