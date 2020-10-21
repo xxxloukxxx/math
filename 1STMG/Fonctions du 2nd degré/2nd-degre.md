@@ -21,7 +21,6 @@ header-includes: |
 
 \newpage
 
-
 # Définition et représentation graphique
 
 ## Définition : Fonctions polynômes du 2^nd^ degré
@@ -81,7 +80,7 @@ Soit $f$ une fonction polynôme du 2^nd^ degré, telle que $f\left( x \right) = 
 \caption{Représentation d'une fonction du 2$^{\text{nd}}$ degré suivant le signe de $a$}
 \end{figure}
 
-![Méthode mnémotechnique pour l'allur de la parabole](media/angry.png){width=50%}
+![Méthode mnémotechnique pour l'allure de la parabole](media/angry.png){width=50%}
 
 \newpage
 
@@ -90,6 +89,7 @@ Soit $f$ une fonction polynôme du 2^nd^ degré, telle que $f\left( x \right) = 
 Les paraboles d'équation $y = ax^{2} + b$ ont pour axe de symétrie l'**axe des ordonnées** et pour **sommet** le point de coordonnées $\left(0 ;b\right)$.
 
 ### Exemple {-}
+
 La fonction $f$ telle que $f\left( x \right) = - x^{2} + 2$ a pour représentation graphique une parabole dont les branches sont tournées vers le bas et dont le sommet est le point $S\left(0 ; 2\right)$. L'axe de symétrie de la parabole est l'axe des ordonnées.
 
 \begin{figure}
@@ -106,6 +106,8 @@ La fonction $f$ telle que $f\left( x \right) = - x^{2} + 2$ a pour représentati
 \end{center}
 \caption{Représentation graphique de $f\left( x \right) = - x^{2} + 2$}
 \end{figure}
+
+\newpage
 
 ## Méthode : Associer une fonction du 2^nd^ degré à sa représentation graphique
 
@@ -185,7 +187,6 @@ Les fonctions définies sur $\mathbb{R}$ par $$f\left( x \right) = a\left( x - x
 
 Les coefficients $a$, $x_{1}$ et $x_{2}$ sont des réels avec $a \neq 0$.
 
-
 ## Propriété : Racines d'une fonction du 2^nd^ degré
 
 Soit la fonction $f$ définie sur $\mathbb{R}$ par $f\left( x \right) = a\left( x - x_{1} \right)\left( x - x_{2} \right)$.
@@ -238,7 +239,7 @@ La courbe de $f$ traverse l'axe des abscisses en $x = - 4$ et en $x = 2$.
 \begin{figure}
 \begin{center}
 \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
-\begin{axis}[width=12cm,height=7cm,axis lines=middle,ymajorgrids=true,xmajorgrids=true,xmin=-5.9,xmax=5.9,ymin=-22.9,ymax=22.9,xtick={-6.0,-5.0,...,6.0},ytick={-20,-15.0,...,20},]
+\begin{axis}[width=12cm,height=6.5cm,axis lines=middle,ymajorgrids=true,xmajorgrids=true,xmin=-5.9,xmax=5.9,ymin=-22.9,ymax=22.9,xtick={-6.0,-5.0,...,6.0},ytick={-20,-15.0,...,20},]
 \draw (-4,0) node[anchor=south east] {$A\left(-4 ; 0\right)$};
 \draw [fill=blue] (-4,0) circle (2.5pt);
 \draw (2,0) node[anchor=south west] {$B\left(2 ; 0\right)$};
@@ -256,7 +257,7 @@ La droite d'équation $x = - 1$ est l'axe de symétrie de la parabole représent
 \begin{figure}
 \begin{center}
 \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
-\begin{axis}[width=12cm,height=7cm,axis lines=middle,ymajorgrids=true,xmajorgrids=true,xmin=-5.9,xmax=5.9,ymin=-22.9,ymax=22.9,xtick={-6.0,-5.0,...,6.0},ytick={-20,-15.0,...,20},]
+\begin{axis}[width=12cm,height=6.5cm,axis lines=middle,ymajorgrids=true,xmajorgrids=true,xmin=-5.9,xmax=5.9,ymin=-22.9,ymax=22.9,xtick={-6.0,-5.0,...,6.0},ytick={-20,-15.0,...,20},]
 \draw (-4,0) node[anchor=south east] {$A\left(-4 ; 0\right)$};
 \draw [fill=blue] (-4,0) circle (2.5pt);
 \draw (2,0) node[anchor=south west] {$B\left(2 ; 0\right)$};
@@ -283,7 +284,7 @@ Le sommet de la parabole $S$ est donc le point de coordonnées $S\left(-1 ;-18\
 \begin{figure}
 \begin{center}
 \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
-\begin{axis}[width=12cm,height=7cm,axis lines=middle,ymajorgrids=true,xmajorgrids=true,xmin=-5.9,xmax=5.9,ymin=-22.9,ymax=22.9,xtick={-6.0,-5.0,...,6.0},ytick={-20,-15.0,...,20},]
+\begin{axis}[width=12cm,height=6.5cm,axis lines=middle,ymajorgrids=true,xmajorgrids=true,xmin=-5.9,xmax=5.9,ymin=-22.9,ymax=22.9,xtick={-6.0,-5.0,...,6.0},ytick={-20,-15.0,...,20},]
 \draw (-4,0) node[anchor=south east] {$A\left(-4 ; 0\right)$};
 \draw [fill=blue] (-4,0) circle (2.5pt);
 \draw (2,0) node[anchor=south west] {$B\left(2 ; 0\right)$};
@@ -398,7 +399,7 @@ En prenant par exemple $x = 0$, cette égalité s'écrit :
 
 Ainsi, sous sa forme factorisée, la fonction polynôme $f$ s'écrit $f\left( x \right) = 2\left( x - 1 \right)\left( x - \left( - 3 \right) \right)$ ou encore $$f\left( x \right) = 2\left( x - 1 \right)\left( x + 3 \right)$$
 
-## Methode : Démontrer l'égalité de deux fonctions du 2^nd^ degré
+## Méthode : Démontrer l'égalité de deux fonctions du 2^nd^ degré
 
 Soit la fonction $f$ définie sur $\mathbb{R}$ par $f(x)=3x^{2} - 3x - 6$
 

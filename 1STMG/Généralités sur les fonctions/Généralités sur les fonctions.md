@@ -1,5 +1,5 @@
 ---
-title: Suites numériques
+title: Généralités sur les fonctions
 subtitle: 1^ère^ STMG
 lang: fr-FR
 documentclass: scrartcl
