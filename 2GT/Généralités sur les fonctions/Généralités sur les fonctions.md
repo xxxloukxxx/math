@@ -30,7 +30,7 @@ Une fonction $f$ définie sur $\mathscr{D}_f$, associe à tout nombre $x$ de $\m
 
 $\mathscr{D}_f$ est l'ensemble de définition de $f$.
 
-**Notation :**
+### Notation
 
 \begin{eqnarray*}
 f: & \mathscr{D}_f & \mapsto \mathbb{R}\\
