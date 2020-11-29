@@ -190,7 +190,7 @@ Soit $f$ une fonction définie sur $\left[0;5 \right]$ tel que $f(x) = x\left(5-
 
 Pour résoudre $f(x)=2$, il s'agit de lire graphiquement les antécédents de $2$ par la fonction $f$.
 
-On détermine les abscisses des points d'intersection de la courbe $\mathscr{C}_f$ avec la droite parallèle à l'axe des abscisses passant par le point $(0 ; 2)$.
+On détermine les abscisses des points d'intersections de la courbe $\mathscr{C}_f$ avec la droite parallèle à l'axe des abscisses passant par le point $(0 ; 2)$.
 
 \begin{center}
 \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
@@ -229,7 +229,7 @@ Deux solutions "approchées" : $x\approx 0,5$ et $x\approx 4,5$
 
 ## Résoudre graphiquement une équation du type $f(x)=g(x)$
 
-Pour déterminer les solutions de l'équation $f(x)=g(x)$, il suffit de lire l'abscisse des points d'intersection des deux courbes $\mathscr{C}_f$ et $\mathscr{C}_g$.
+Pour déterminer les solutions de l'équation $f(x)=g(x)$, il suffit de lire l'abscisse des points d'intersections des deux courbes $\mathscr{C}_f$ et $\mathscr{C}_g$.
 
 ### Exemple
 
