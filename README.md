@@ -213,7 +213,7 @@ header-includes:
 
 ## Des trucs en math
 
-* 4 [articles](https://kogler.wordpress.com/tag/latex/) qui vont bien
+- 4 [articles](https://kogler.wordpress.com/tag/latex/) qui vont bien
 
 $\begin{aligned}
 f: \mathscr{D}_f & \mapsto \mathbb{R}\\
@@ -258,7 +258,8 @@ $\sum\limits_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}$
 
 $$\oiiint$$
 
-Des arbres (en tout cas un arbre)
+- Des arbres (en tout cas un arbre)
+
 > ```latex
 > \begin{tikzpicture}[xscale=1,yscale=1]
 > \draw (0,0)--(-2,0.5) node[midway, below, sloped]{0.B4};
@@ -276,4 +277,4 @@ Des arbres (en tout cas un arbre)
 > \end{tikzpicture}
 > ```
 
-Tableau de variations : [`tabvar`](http://www.bakoma-tex.com/doc/latex/tkz-tab/tkzdoc-tab.pdf)
+- Tableau de variations : [`tabvar`](http://www.bakoma-tex.com/doc/latex/tkz-tab/tkzdoc-tab.pdf)
