@@ -258,9 +258,9 @@ $\sum\limits_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}$
 
 $$\oiiint$$
 
+* Des arbres (en tout cas un arbre)
 
-Des arbres (en tout cas un arbre)
-
+```latex
 \begin{tikzpicture}[xscale=1,yscale=1]
 \draw (0,0)--(-2,0.5) node[midway, below, sloped]{0.B4};
 \draw (0,1)--(-2,0.5) node[midway, above, sloped]{0.B3};
@@ -275,3 +275,6 @@ Des arbres (en tout cas un arbre)
 \draw (-2,0.5) node[fill=white]{$\overline{A2}$};
 \draw (-2,2.5) node[fill=white]{$A1$};
 \end{tikzpicture}
+```
+
+* Tableau de variations : [`tabvar`](http://www.bakoma-tex.com/doc/latex/tkz-tab/tkzdoc-tab.pdf)
